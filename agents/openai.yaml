@@ -1,4 +1,4 @@
 interface:
   display_name: "Analytic Rubric Maker"
   short_description: "Create analytic 4-level rubrics"
-  default_prompt: "Use $analytic-rubric-maker to turn a learning outcome and criteria into a 4-level analytic rubric while keeping the visible output in the user's language."
+  default_prompt: "Use analytic-rubric-maker by following core/spec.md as the canonical workflow and references/rubric-ontwerp.md as supporting rubric guidance. Preserve the user's language in visible output, keep the four-level structure equivalent to insufficient, sufficient, good, and excellent, and keep any runtime-specific behavior thin."
